@@ -126,6 +126,7 @@ function magic() {
 	}
 	if (simsubscreennum == 4) {
 		if (flag == 0 || flag == 1 || flag == 2) {
+			document.getElementById('white').style.visibility = "hidden";
 			document.getElementById('cylinder43').style.visibility = "hidden";
 			document.getElementById('tamp2').style.visibility = "hidden";
 			document.getElementById('tamp22').style.visibility = "hidden";
